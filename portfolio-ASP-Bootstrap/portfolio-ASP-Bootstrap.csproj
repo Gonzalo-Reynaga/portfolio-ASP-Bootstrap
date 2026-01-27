@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Contacto.aspx" />
+    <Content Include="Content\Style.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Proyectos.aspx" />
