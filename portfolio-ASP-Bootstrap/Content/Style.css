@@ -1,4 +1,8 @@
-﻿.foto-de-perfil {
+﻿body{
+    padding-top: 150px;
+}
+
+.foto-de-perfil {
     height: auto;
     width: 200px;
 }
