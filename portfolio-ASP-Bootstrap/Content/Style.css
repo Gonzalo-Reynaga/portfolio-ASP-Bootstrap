@@ -1,5 +1,11 @@
-﻿body{
+﻿html {
+    height: 100%;
+}
+
+body {
     padding-top: 150px;
+    height: 100%;
+    background: linear-gradient(180deg,rgba(207, 226, 255, 1) 0%, rgba(248, 249, 250, 1) 25%, rgba(248, 249, 250, 1) 75%, rgba(207, 226, 255, 1) 100%);
 }
 
 .foto-de-perfil {
