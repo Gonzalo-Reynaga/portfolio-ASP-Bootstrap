@@ -12,29 +12,31 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
-    <form id="form1" runat="server">
-        <header class="fixed-top text-center">
+<body class="d-flex flex-column min-vh-100">
+    <form id="form1" runat="server" class="d-flex flex-column flex-grow-1">
+        <header class="text-center py-4 mb-md-0 mb-3">
             <div class="container">
                 <div class="row row-gap-3">
-                    <div class="col-md-2 col-12">
-                        Toggle L/D
+                    <div class="col-md-2 col-12 text-md-start">
+                        <span>En desarrollo</span>
                     </div>
                     <div class="col-md col-12">
-                        <a href="Default.aspx"><h3>Portfolio Gonzalo Reynaga</h3></a>
+                        <a href="Default.aspx" class="text-decoration-none"><h3>Portfolio</h3></a>
                     </div>
                     <div class="col-md-2 col-12">
-                        <a href="Proyectos.aspx">Proyectos</a>
-                        <a href="Contacto.aspx">Contacto</a>
+                        <div class="d-flex gap-4 justify-content-md-end justify-content-center flex-md-row flex-column">
+                            <a href="Proyectos.aspx" class="text-decoration-none">Proyectos</a>
+                            <a href="Contacto.aspx" class="text-decoration-none">Contacto</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
-        <div class="main-container">
+        <div class="main-container flex-grow-1">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <footer class="fixed-bottom text-center">
+        <footer class="text-center">
         Gonzalo Reynaga 2026
         </footer>
     </form>

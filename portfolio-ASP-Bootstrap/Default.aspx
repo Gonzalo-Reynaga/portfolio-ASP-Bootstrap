@@ -5,10 +5,12 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section class="seccion-titulo py-5">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1>Gonzalo Reynaga</h1>
-                <h2>Fullstack developer</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Gonzalo Reynaga</h1>
+                    <h2>Fullstack developer</h2>
+                </div>
             </div>
         </div>
     </section>
@@ -58,25 +60,26 @@
         </div>
     </section>
     <section class="seccion-tecnologias py-5">
-        <div class="row justify-content-center">
-            <div class="col-sm-12 col-8">
-                <div class="d-flex gap-5 justify-content-center flex-wrap">
-                    <img class="tecnologia"
-                        src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
-                        alt="html logo">
-                    <img class="tecnologia"
-                        src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
-                        alt="css logo">
-                    <img class="tecnologia"
-                        src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="js logo">
-                    <img class="tecnologia"
-                        src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"  alt="PHP logo">
-                    <img class="tecnologia"
-                        src="https://images.icon-icons.com/2415/PNG/512/csharp_plain_logo_icon_146577.png" alt="c# logo">
-                    <img class="tecnologia"
-                        src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png"
-                        alt=".net logo">
-                     
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-8">
+                    <div class="d-flex gap-5 justify-content-center flex-wrap">
+                        <img class="tecnologia"
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                            alt="html logo">
+                        <img class="tecnologia"
+                            src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                            alt="css logo">
+                        <img class="tecnologia"
+                            src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="js logo">
+                        <img class="tecnologia"
+                            src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP logo">
+                        <img class="tecnologia"
+                            src="https://images.icon-icons.com/2415/PNG/512/csharp_plain_logo_icon_146577.png" alt="c# logo">
+                        <img class="tecnologia"
+                            src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png"
+                            alt=".net logo">
+                    </div>
                 </div>
             </div>
         </div>

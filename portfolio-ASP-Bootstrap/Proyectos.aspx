@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <section class="seccion-proyectos py-5">
-        <div class="container">
+        <div class="container font-monospace">
             <h2 class="text-center display-6 mb-5">Mis Proyectos</h2>
             <div class="row justify-content-center mb-5">
                 <div class="col-md-8 col-9">
