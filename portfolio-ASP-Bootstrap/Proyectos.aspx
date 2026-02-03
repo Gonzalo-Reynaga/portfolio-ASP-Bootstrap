@@ -18,7 +18,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Proyecto 1</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quam recusandae. Nulla nesciunt et sint ad! Voluptate, nisi nam dolore alias, laborum aliquam a distinctio est odio omnis id facilis!</p>
-                                    <a href="#" class="btn btn-primary">Github</a>
+                                    <a href="#" class="btn btn-outline-primary">Github</a>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Proyecto 2</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                                    <a href="#" class="btn btn-primary">Github</a>
+                                    <a href="#" class="btn btn-outline-primary">Github</a>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Proyecto 3</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                                    <a href="#" class="btn btn-primary">Github</a>
+                                    <a href="#" class="btn btn-outline-primary">Github</a>
                                 </div>
                             </div>
                         </div>
